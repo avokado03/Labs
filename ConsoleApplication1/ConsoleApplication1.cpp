@@ -15,9 +15,9 @@ int Arrays(const char* source, const char* charSet);
 
 int main()
 {
-	//устанавливаем кодировку консоли
+	//устанавливаем кодировку консоли, функция из Windows.h
 	SetConsoleCP(1251);
-	//устанавливаем язык
+	//устанавливаем язык, iostream.h
 	setlocale(LC_ALL, "Russian");
 
 // pragma region: https://docs.microsoft.com/ru-ru/cpp/preprocessor/region-endregion?view=vs-2019
